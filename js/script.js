@@ -37,7 +37,7 @@ btnLogin.addEventListener('click',()=>{
         }
         if (success.user) {
             if (success.pass) {
-                document.location.href = 'index.html';
+                document.location.href = 'home.html';
             }else{
                 pesan.innerHTML += '<div class="alert alert-danger">Password salah</div>';
             }
